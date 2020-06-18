@@ -13,10 +13,9 @@ var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
-    //window.alert('yes');
   } else {
     navbar.classList.remove("sticky");
-    //window.alert('no');
+   
   }
 }
 
