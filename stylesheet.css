@@ -1,8 +1,9 @@
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #777;
+    background-color: #97EACF;
     opacity: 1;
+    z-index: 8;
 }
 
 /* Navbar links */
@@ -28,7 +29,7 @@
 .sticky {
     position: fixed;
     top: 0;
-    width: 38% ; 
+    width: 40% ; 
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -52,18 +53,24 @@
     outline: solid pink;
 }
 
-.col1{
+/**.col1{
     outline: solid peru;
 }
 
 .col3{
     outline: solid peru;
-}
+}**/
 
 *{
     scroll-behavior: smooth;
 }
 
+.body_container{
+    padding: 50px;
+    background-color: #AAABB8;
+    border-radius: 25px;
+    margin-top: 50px;
+}
 
 
 /*********** TIMELINE ***********/
@@ -362,3 +369,5 @@ svg {
 .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+/** timeline
